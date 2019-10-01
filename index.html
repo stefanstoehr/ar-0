@@ -9,25 +9,17 @@
     <!-- add this script in order to load a large set of 3D model extensions-->
     <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
     
-    <body style='margin : 0px; overflow: hidden;'>
+    <body style='margin : 0px; overflow: hidden;' antialias="true">
     
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
-        
-            <a-marker preset="custom" type="pattern" src=""
             
-        <a-assets>
-            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
-        </a-assets>
-
-        <a-marker type='barcode' value='7'>
-            <a-box position='0 0.5 0' color="yellow"></a-box>
-        </a-marker>
-
-        <a-marker id="animated-marker" type='barcode' value='6'>
-            <a-entity
-                gltf-model="#animated-asset"
-                scale="2">
-            </a-entity>
+            <a-assets>
+            <a-asset-item id="tower" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
+            </a-assets>
+        
+            <a-marker id="ostsee" preset="custom" type="pattern" src="https://raw.githubusercontent.com/stewahn/ar-carpet/master/pattern-OSTSEE.patt">
+            
+        
         </a-marker>
 
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
