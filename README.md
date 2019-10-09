@@ -9,7 +9,3 @@ https://jeromeetienne.github.io/AR.js-docs/posts/post-XX-how-to-use-arjs-with-af
 https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
 https://medium.com/swlh/ar-js-the-simplest-way-to-get-cross-browser-augmented-reality-on-the-web-10cbc721debc
 https://medium.com/@aschmelyun/so-you-want-to-get-started-with-ar-js-41dd4fba5f81
-
-You can copy everything of course.
-
-Cheers.
