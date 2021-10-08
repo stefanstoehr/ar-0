@@ -4,6 +4,7 @@
 
 ### Screenshots:
 ![Marker on table](https://raw.githubusercontent.com/stefanstoehr/ar-0/master/ar1.jpg)
+
 ![Device displays AR](https://raw.githubusercontent.com/stefanstoehr/ar-0/master/ar2.jpg)
 
 This repository contains a working example for augmented reality with ar.js and a-frame. visit https://stewahn.github.io/ostsee2.0/ which calls the index.html in this github repository. The custom markers and the 3d-models are inside this repository too.
